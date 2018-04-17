@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- encoding:utf-8 -*-
 
+# original code from https://github.com/Greatdane/Convert-Numbers-to-Japanese
+
 # Japanese Number Converter
 # Works only up to sen man for now.
 
