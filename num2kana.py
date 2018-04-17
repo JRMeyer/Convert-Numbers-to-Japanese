@@ -147,7 +147,7 @@ class Converter:
         
     def do(self, num):
         #Check lengths and convert accordingly
-        self.num=num
+        self.num=str(num)
         
         if len(self.num) == 1:
             result = self.len_one()
@@ -162,7 +162,7 @@ class Converter:
             result = self.len_four()
 
         else:
-            print("ERROR: NUMBER TOO LARGE")
+            result='NUM-TOO-LARGE'
 
         return result
 
